@@ -11,10 +11,11 @@ set hidden
 set nowrap
 set scrolloff=8
 set incsearch
-set colorcolumn=10
 set colorcolumn=100
 set signcolumn=yes
-
+set clipboard+=unnamedplus
+set cursorline
+set mouse=
 
 " Plugins
 call plug#begin()
@@ -53,15 +54,11 @@ nnoremap <C-e> :Ex<CR>
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 
-:set clipboard+=unnamedplus
-
-" " Copy to clipboard
 vnoremap  <leader>y  "+y
 nnoremap  <leader>Y  "+yg_
 nnoremap  <leader>y  "+y
 nnoremap  <leader>yy  "+yy
 
-" " Paste from clipboard
 nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
