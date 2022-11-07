@@ -11,7 +11,7 @@ set hidden
 set nowrap
 set scrolloff=8
 set incsearch
-set colorcolumn=100
+set colorcolumn=120
 set signcolumn=yes
 set clipboard+=unnamedplus
 set cursorline
