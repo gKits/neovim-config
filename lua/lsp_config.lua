@@ -14,3 +14,6 @@ require'lspconfig'.pyright.setup{
 require'lspconfig'.dockerls.setup{
     capabilities = capabilities
 }
+require'lspconfig'.yamlls.setup{
+    capabilities = capabilities
+}
