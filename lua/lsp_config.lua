@@ -11,3 +11,6 @@ require'lspconfig'.eslint.setup{
 require'lspconfig'.pyright.setup{
     capabilities = capabilities
 }
+require'lspconfig'.dockerls.setup{
+    capabilities = capabilities
+}
