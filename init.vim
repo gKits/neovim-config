@@ -46,6 +46,8 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'ntpeters/vim-better-whitespace'
 
+Plug 'ellisonleao/glow.nvim'
+
 call plug#end()
 
 
