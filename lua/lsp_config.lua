@@ -17,3 +17,6 @@ require'lspconfig'.dockerls.setup{
 require'lspconfig'.yamlls.setup{
     capabilities = capabilities
 }
+require'lspconfig'.marksman.setup{
+    capabilities = capabilities
+}
