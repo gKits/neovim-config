@@ -44,7 +44,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 
-Plug 'axelf4/vim-strip-trailing-whitespace'
+Plug 'ntpeters/vim-better-whitespace'
 
 call plug#end()
 
@@ -81,8 +81,11 @@ endif
 
 colorscheme slate
 
+" Trailing Whitespace
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
 
-" Mason
+" LSP
 lua require('mason').setup()
 lua require("nvim-autopairs").setup {}
 lua require('cmp_config')
