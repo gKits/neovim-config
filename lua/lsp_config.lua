@@ -20,3 +20,6 @@ require'lspconfig'.yamlls.setup{
 require'lspconfig'.marksman.setup{
     capabilities = capabilities
 }
+require'lspconfig'.bashls.setup{
+    capabilities = capabilities
+}
