@@ -16,7 +16,7 @@ nvim init.vim
 ```
 
 ### Plugins
-- Install [packer.neovim](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)
+- Install [packer.neovim](https://github.com/wbthomason/packer.nvim)
 - Open `lua/gkits/packer.lua`
 - Run `:so`
 - Run `:PackerSync`
