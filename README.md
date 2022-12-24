@@ -16,12 +16,7 @@ nvim init.vim
 ```
 
 ### Plugins
-- Install [vim-plug](https://github.com/junegunn/vim-plug)
-- Open NeoVim and run `:PlugInstall`
-- Install `wl-clipboard` for clipboard support
-
-
-### Requirements
-- wl-clipboard (Wayland) or xclip (X11) or any other clipboard provider depending on your OS or Distro
-- PlugInstall
-- NeoVim (obviously)
+- Install [packer.neovim](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)
+- Open `lua/gkits/packer.lua`
+- Run `:so`
+- Run `:PackerSync`
