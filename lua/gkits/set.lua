@@ -1,5 +1,7 @@
 vim.opt.guicursor = "n-c-v:block,i-ci-ve:block-iCursor-blinkon200-blinkoff150"
 
+vim.opt.mouse = ""
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -26,3 +28,6 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "120"
 
 vim.g.mapleader = " "
+
+-- disable swapfile
+vim.opt.swapfile = false
