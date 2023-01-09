@@ -5,9 +5,10 @@ My customized neovim experience
 
 ### Installation
 - Make sure `neovim` is installed
-- Move to the `.conifg` directory
+- Move to the `.config` directory
 - Clone the repository
 - Move into the repository and open the `init.vim` in NeoVim
+- [optional] Install `wl-clipboard` [Wayland] or `xclip` [X11] for system clipboard support
 
 ```
 cd ~/.config
